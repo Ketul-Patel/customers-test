@@ -1,0 +1,21 @@
+<html ng-app="customersApp">
+<head>
+	<title>Adding Customers with Angular</title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular.min.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular-route.min.js"></script>
+</head>
+<body>
+	<a href="#/"> Friends</a> | <a href="#/orders">Orders</a>
+	<div ng-view="">
+	</div>
+
+
+	<script type="text/javascript" src="/js/customers.js"></script>
+	<script type="text/javascript" src="/js/factories/customersFactory.js"></script>
+	<script type="text/javascript" src="/js/controllers/customersController.js"></script>
+	<script type="text/javascript" src="/js/controllers/ordersController.js"></script>
+	<script type="text/javascript" src="/js/factories/ordersFactory.js"></script>
+	<script type="text/javascript" src="/js/routes/routes.js"></script>
+	
+</body>
+</html>
